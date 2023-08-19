@@ -8,6 +8,27 @@ Java Garbage Collection :
 
 
 
+Difference between Object and a class
+
+# A class is an blueprint of an object
+
+# It tells the JVM how to make an object of that class type. Each object created from that respective class will have it's own values for the variables of the class.
+
+# THINGS that an object knows about itself is called as INSTANCE VARIABLES [ STATE of an object ]
+
+# THINGS that an object can do is called as METHODS [ BEHAVIOUR of an Object ]
+
+# A class can EXTEND another class and use all the variables & Override the methods inside it.
+
+# SUPER CLASS : Which have the required variables and the Methods
+
+# SUB CLASS : Which inherits all the attributes for the SUPER or PARENT class.
+
+# At run time a Java program is nothing but objects talking to one another.
+
+
+
+
 
 
 

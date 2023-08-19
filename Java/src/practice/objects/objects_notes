@@ -1,0 +1,36 @@
+Java Garbage Collection :
+
+1. Each time an object is created in Java it gets stored in Heap also called as Garbage Collection Heap !!
+
+2. when we create an object java allocates the required memory for that object based on the requirement. Once the if JVM finds that we are running on the low memory , it check for the objects which are not being used.
+
+3. If an object is not used it is eligible for Garbage collection. Garbage Collector will run, throw out the unreachable objects, and free up the space so that the space can be reused.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

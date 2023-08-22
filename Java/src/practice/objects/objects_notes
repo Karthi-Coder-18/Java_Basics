@@ -2,7 +2,7 @@ Java Garbage Collection :
 
 1. Each time an object is created in Java it gets stored in Heap also called as Garbage Collection Heap !!
 
-2. when we create an object java allocates the required memory for that object based on the requirement. Once the if JVM finds that we are running on the low memory , it check for the objects which are not being used.
+2. when we create an object, java allocates the required memory for that object based on the requirement. Once the JVM finds that we are running on the low memory , it will check for the objects which are not being used.
 
 3. If an object is not used it is eligible for Garbage collection. Garbage Collector will run, throw out the unreachable objects, and free up the space so that the space can be reused.
 
@@ -27,7 +27,13 @@ Difference between Object and a class
 # At run time a Java program is nothing but objects talking to one another.
 
 
+4.  Whenever an object is created then the reference variable of that object will be stored in Garbage collectible Heap
 
+Ex: Cricket team  = new Cricket();
+
+   # here 'team' is an reference variable which is referring to an object called Cricket. [ Cricket is basically an Class , in order to use the instance variables and methods of a class in java we create objects ]
+
+   
 
 
 

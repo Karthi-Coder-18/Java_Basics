@@ -1,0 +1,52 @@
+1. When a variable is created in java keep in mind that the below 3 are the main prerequisites which are required for the variable to work.
+
+i. Variable TYPE
+ii.Variable Name
+iii. SIZE [ which is already fixed ]
+
+
+2. Variables are like containers which can store some values based on the type assigned to it.
+
+3. There are two different types of variables in Java
+
+i. Primitive Type
+ii. Instance type or Reference type
+
+
+
+PRIMITIVE TYPE VARIABLES
+
+1. There are total of 8 primitive type variables
+
+boolean[ t / f ]
+char [ 16bits ]
+byte [ 8bits ]
+short[ 16bits ]
+int[ 32bits ]
+long[ 64 bits ]
+
+Floating type
+
+float [ 32bits ]
+double[ 64bits ]
+
+
+2. We are not allowed to assign the bigger size variable type to smaller size type. it kind of not fits !!
+
+
+LOCAL VARIABLE : These are the variables which are declared inside an Method
+
+INSTANCE VARIABLE : These are the variables which are defined inside an class, but outside an method and also used by an object of the class where it is defined.
+
+STATIC VARIABLE : These variables are declared inside an class and can be used globally without any restrictions !!
+
+REFERENCE VARIABLE : When an object is created to access an particular class we use an name for that object that is called as Reference variable.
+
+
+
+
+
+
+
+
+

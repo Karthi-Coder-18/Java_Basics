@@ -33,7 +33,11 @@ Ex: Cricket team  = new Cricket();
 
    # here 'team' is an reference variable which is referring to an object called Cricket. [ Cricket is basically an Class , in order to use the instance variables and methods of a class in java we create objects ]
 
-   
+5. If there is no reference variable assigned or referring towards an existing object then that object is unreachable and eligible for Garbage Collection
+
+6. Even if the reference variable has no object assigned and it is assigned with an NULL value then it is still eligible to be assigned with an object.
+
+
 
 
 

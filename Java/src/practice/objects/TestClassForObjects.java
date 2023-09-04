@@ -7,6 +7,14 @@ public class TestClassForObjects {
         StreamingSong st = new StreamingSong();
         DrumKit dk = new DrumKit();
 
+        Echo[] array = new Echo[4];
+
+        array[0] = new Echo();
+        array[1] = array[0];
+
+        array[0].hello();
+
+
         st.artist = "Anirudh";
 
         st.title = "Hukum";

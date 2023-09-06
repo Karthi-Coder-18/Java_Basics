@@ -25,11 +25,11 @@ public class CompileErrors {
 
     }
 
-    // Static :  means that the method belongs to the Main class and not an object of the Main class
+    // Static: means that the method belongs to the Main class and not an object of the Main class
 
-    // If there is a need of calling a method inside the same class which isn't STATIC then create an object of the class inside the Main method and call the respective method.
+    // If there is a need of calling a method inside the same class which isn't STATIC, then create an object of the class inside the Main method and call the respective method.
 
-    // The loops run on basis of conditions provided, if the condition is satisfied then it executes the statements inside the loop until the condition is false.
+    // The loops run on the basis of conditions provided, if the condition is satisfied, then it executes the statements inside the loop until the condition is false.
     public void exercise1() {
 
         int x = 1;

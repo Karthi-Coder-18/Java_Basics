@@ -71,6 +71,10 @@ Return Type for Methods in java [ You can get things back from methods ]
 
 
 
+METHODS
+
+1. Can a method declare multiple return values ? It can be, we can use an ArrayList or an Array to do so..
+
 
 
 

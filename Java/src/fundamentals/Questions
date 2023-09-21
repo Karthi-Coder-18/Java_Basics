@@ -1,0 +1,46 @@
+1. Check about the Implicit and Explicit casting in Java ?
+
+Implicit Casting : When we pass a value to a method as an argument then Java will promote the SMALLER DATA TYPES to LARGER DATA TYPES automatically.
+
+ex :
+void myMethod(int x) {
+    // Method code
+}
+
+public static void main(String[] args) {
+    byte myByte = 10;
+    short myShort = 20;
+
+    myMethod(myByte);  // Implicit promotion of myByte to int. Here Even if we pass an byte as an data type java is implicitly promoting the Byte to int data type.
+    myMethod(myShort); // Implicit promotion of myShort to int
+}
+
+
+
+Explicit Casting : When we want to cast an LARGER DATA TYPE to SMALLER DATA TYPE then it be do using "Type Casting" concept.
+
+Ex:
+
+public static void main(String[] args) {
+    double myDouble = 123.456;
+    int myInt = (int) myDouble; // Explicit casting to int (results in 123, fractional part is discarded).
+
+    //Syntax : data type | reference variable  = (data type which we want convert ) the actual variable whose datatype needs to be changed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

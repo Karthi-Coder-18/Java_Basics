@@ -39,6 +39,51 @@ Ex: Cricket team  = new Cricket();
 
 
 
+Using an Existing Object as an Reference to create another object / Assigning already created object to another element inside an array.
+
+# we can create an array of objects and assign objects to each and every element inside the array. instead of assigning a new object everytime we can even assign already created reference variable to a new variable.
+
+
+
+Arguments & Parameters for an Method in Java [ You can send things into a Method / We can also send more than one thing to a method ]
+
+1. The methods depends upon the instance variables defined in the class.
+
+2. Parameters : When we create an Method inside a class then we can assign parameters to that method inside it's body.
+
+3. Arguments : When we create an object of a class & use the method or call the method then we need to assign values to the method's parameters. Those values are Arguments.
+
+4. We can assign multiple parameters to an method. All we have to do is to separate those parameters with an Comma.
+
+5. When a parameter is assigned to an method it does have it's own data type. When a Argument value is passed to the method it should be of same data type.
+
+6. You can pass variables into a method, as long as the variable type matches the parameter type. Create local variables or global variables of same type and pass it inside the method.
+
+
+
+Return Type for Methods in java [ You can get things back from methods ]
+
+1. Void : The void type doesn't return any value when the method is called.
+
+2. But we can declare a method to return specific type to return back to us. [ Byte, char, Short, int, long, float, double ]
+
+3.
+
+
+
+METHODS
+
+1. Can a method declare multiple return values ? It can be, we can use an ArrayList or an Array to do so..
+
+
+
+
+
+
+
+
+
+
 
 
 

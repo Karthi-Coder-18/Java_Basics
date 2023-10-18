@@ -1,4 +1,4 @@
-package fundamentals;
+package fundamentals.loops;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -35,7 +35,7 @@ public class Loops {
 
 
 
-        // Here first we are printing a statement and checking if the condition provided inside while loop is true or false. Based on that we are looping the code inside do loop.
+        // Here first,we are printing a statement and checking if the condition provided inside while loop is true or false. Based on that we are looping the code inside do loop.
         do {
             System.out.println("Karthik" + num);
             num++;
@@ -61,11 +61,11 @@ public class Loops {
 
 //As long as some condition is true, you do everything inside the loop block. The loop block is bounded by a pair of curly braces, so whatever you want to repeat needs to be inside that block.
 
-// use comparison operations like >, < , == to run the boolean tests for the loops
+// use comparison operations like >, <, == to run the boolean tests for the loops
 
 // The print - prints the comment or the string value in the same line
 
-// Println : Prints the comment or a string value in a new line !!
+// Println: Prints the comment or a string value in a new line !!
 
 // There is not much difference between the [ if condition & while loop ]  instead of saying while there is some condition , we say if there is some condition.
 

@@ -1,0 +1,11 @@
+Why Java
+
+-> General Purpose: It can be used to develop wide variety of applications which can be related to Web, Desktop, Games, Mobile apps and Automotive too
+-> Object Oriented:
+-> Platform Independent: Java's mantra is [WORA] "write once run anywhere". It means we can write a java program and run it on any platform irrespective of the OS and Architecture.
+-> Concurrency: Java supports multi-threading which is useful to run multiple activities or processes at same time.
+-> Very fast:
+-> Familiar Syntax: Java is designed in a way that it is simpler to use and also the syntax is little bit similar to C & C++.
+-> Memory Management: In C/C++ the developers need to manually erase the memory of the program in order to free up space. In Java the "Automatic Memory Management" which is "Garbage Collection" will take care of the memory management.
+-> Secure:
+-> initially Java was developed to run it inside Embedded system, later the web applications came into picture using an concept called Applets.

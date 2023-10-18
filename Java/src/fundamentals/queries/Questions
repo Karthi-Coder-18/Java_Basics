@@ -31,6 +31,21 @@ public static void main(String[] args) {
 
 
 
+2. Equals Operator in Java ?
+
+
+## The ( == ) operator is used in Java to compare TWO VARIABLES of any kind & the operator simply compares bits of those variables.
+
+## To check if two reference variables are same i.e. ( referring to same Object in the heap ) use the == operator. The == operator returns true if both the reference variables refer to same OBJECT.
+
+
+## Use the .equals method to compare if two different Objects are equal or not ? [ check an example ]
+
+
+
+
+
+
 
 
 

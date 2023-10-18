@@ -16,7 +16,12 @@ array[0] = 22;
 # Use the LENGTH method from the Array class to get the size / elements of an array.
 
 
+Q: When we try to declare the values for Arrays in java outside the main method and inside a class it gives an error?
+A:
 
+
+Q: When the array which is initialized has been declared inside the main method the ide says it has to be static in order for the main method to access?
+A:
 
 
 

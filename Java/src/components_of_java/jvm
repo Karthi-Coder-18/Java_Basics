@@ -1,0 +1,37 @@
+JVM -> JAVA VIRTUAL MACHINE
+
+-> The JVM acts as an Interpreter and takes the java byte code provided by java compiler & then reads the statements from bytecode and then sends the instructions to machine in machine code format.
+
+-> When the compilation process starts [javac] the java compiler will take the [.java] extension files and then converts it into a [.class] format which is java bytecode.
+
+-> JVM will take this [.class] file and then reads the statements, uses the pre-defined machine code library to generate the machine code and send the instructions to machine.
+
+what is JIT [Just-in-time-compilation] in java?
+
+-> javac hello.java - compiles the java class into an java byte code format
+-> java hello - Here java is the java interpreter that which creates an instance of JVM, i.e. CPU loads the JVM into memory as soon as java interpreter creates an instance of JVM & the JVM executes the program onto the machine.
+
+
+
+
+-> JAVA is a Platform Independent Language which can run it's program on any platform / OS.
+-> RUN TIME - This is when the program is actually executed onto the machine
+-> One JVM instance can run only one Java application.
+
+Core responsibilities of JVM
+
+1. Loading and interpreting Java byte code
+2. Security
+3. Automatic memory management using Garbage collection
+
+
+
+
+
+
+
+
+
+
+
+

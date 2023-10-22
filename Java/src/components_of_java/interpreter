@@ -1,4 +1,9 @@
 
+Define an Interpreter
+
+A: An interpreter does not generate machine code like a compiler, but it maintains a library of pre-compiled machine code and executes the appropriate machine code corresponding to the statement in the source code
+
+
 CPU's Fetch & Execution Cycle
 
 Program [ Hard disk ] will be loaded onto the memory -> The Instructions of the program are stored in the memory in binary format -> Those instructions are loaded onto the CPU & Executed.

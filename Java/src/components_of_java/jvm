@@ -27,10 +27,15 @@ Core responsibilities of JVM
 
 
 
+JIT Compiler [ Just In Time compiler ] JIT is a JVM component
 
+-> JIT compiler identifies the frequently executed byte code which is also called as "HOTSPOTS"
+-> JIT will convert these hotspots into machine code and stores as a machine code cache.
+-> In this way JIT utilizes the frequently compiled code to run the programs faster!!
+->  This process is also called as "Dynamic Compilation"
 
-
-
+-> Once the JIT compiler understands that the code which is being interpreted by JVM is being repeated multiple times then it creates it's own version of that Bytecode as machine code.
+After that the JIT will directly runs the machine code on the hardware instead of interpreting the Byte code.
 
 
 

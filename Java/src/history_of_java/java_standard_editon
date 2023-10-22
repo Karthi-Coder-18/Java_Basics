@@ -1,0 +1,64 @@
+Java Software Family
+
+-> Java Standard Edition: Standalone applications for desktops & Servers
+-> Java Enterprise Edition is created by using Java SE as a base.
+-> Java EE or Jakarta EE is used to build large-scale applications like Amazon.
+-> Java Micro Edition JAVA ME is used to develop applications for resource constrained devices such as Mobiles or setup boxes.  Uses subset of Java SE. mainly for small devices which has limited memory & processing power.
+
+
+
+In any programming language the specifications is like a Blueprint of the language of what need to be done. And the functionality part is the implementation of that blueprint.
+
+https://docs.oracle.com/javase/specs/
+
+1. Java Language Specifications (JLS) -> Defines the Syntax and rules of Java programming
+2. Java Virtual Machine Specification (JVMS)
+3. Java API Specification
+
+-> oracle JDK, Oracle Open JDK , AdoptOpenJDK, Amazon Corretto, Red Hat's open JDK are some of the platforms which are used to implement the above specifications.
+
+-> We need a JDK to write, compile and execute JAVA programs.
+
+
+
+JDK [JAVA DEVELOPMENT KIT]
+
+1. JDK contains Development tools like Compiler
+2. JVM & JAVA API are also included inside the JDK as they both combinely called as JRE which is JAVA RUN TIME ENVIRONMENT.
+3. Oracle used to provide JRE separately as a package till JAVA SE 10, but they have discontinued it from Java 11.
+
+Open JDK includes the JAVA API library which is the java predefined code & also the JVM implementation called HOTSPOT (C++)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

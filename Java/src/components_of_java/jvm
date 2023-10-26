@@ -1,5 +1,11 @@
 JVM -> JAVA VIRTUAL MACHINE
 
+JRE: Java Run Time Environment does contains the JVM and Java API libs which are required to run and execute the program.
+
+JDK will have the Compiler to compile the code to bytecode and JRE will take care of executing the code. 
+
+
+
 -> The JVM acts as an Interpreter and takes the java byte code provided by java compiler & then reads the statements from bytecode and then sends the instructions to machine in machine code format.
 
 -> When the compilation process starts [javac] the java compiler will take the [.java] extension files and then converts it into a [.class] format which is java bytecode.

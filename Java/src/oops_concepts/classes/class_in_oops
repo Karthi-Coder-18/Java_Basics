@@ -1,0 +1,74 @@
+Naming conventions for classes , variables & methods in java
+
+-> First Character Should start with [letter, _ (underscore), $]
+-> The other words should be formed using [letters, underscore(_), $, numbers]
+->  reserved keywords should not be used for naming the classes or variables or methods.
+-> Every java statement should end with semicolon (;)
+-> No duplicate words are allowed
+-> Java is case sensitive [ it means we can have the same words with different way of representing them ]
+
+ex: int id = 0;
+    int ID = 1;
+    int Id = 10;
+
+-> \n will create a new empty lines in java
+
+-> print will prints the content in String format
+-> println will also does the same but prints the content in format of String in a new line.
+
+-> //Karthik double slash will be used to comment single line of code in java
+-> /* String karthik = "batter";
+      int value = 0; */
+ to comment multi line code
+
+
+
+VARIABLES IN JAVA
+
+
+-> variable stores the state of a class and it is responsible for holding the data.
+-> Variables are like containers which stores data as per the data type assigned to them.
+
+-> Java is Static type language is because the variables data types can't be changed once it is declared.
+
+-> A variable which holds a object is called as Object reference variable & also variables are also of Primitive type.
+-> = is a assignment operator in java
+
+
+variable Declaration
+
+<Data Type> <Variable name> = [Literal or Expression]
+
+Literal means Raw Data assigned to variable
+
+int x = 100;
+float y = 24.2;
+
+
+Expression means Evaluated to a single value, can also be defined as assigning the data of variable 1 to variable 2 at some point of program execution.
+
+int k = x + y;
+int j = e;
+
+-> We can declare the variables at any position in the class, but we are not allowed to assign the value directly inside the class.  it can only be done inside a method or members of a class.
+
+
+-> Static variable
+-> Instance variable
+-> Local Variable
+
+-> Both Static & Instance variables are class level which will have the default value assigned.
+-> but the local variables does not have the default value because it is upto the programmer if they want to assign some value to it or not.
+
+[ It would be a waste of memory to initialize all local variables to a default value, even if they are never used ]
+
+Re-Initializing the variables: We do re-initialize the variables because if we need to change the value of a variable we need to re-initialize it again to assign a new value to it.
+
+
+
+
+
+
+
+
+

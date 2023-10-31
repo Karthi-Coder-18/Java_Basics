@@ -1,12 +1,14 @@
 package fundamentals.basic_concepts;
 
+import java.math.BigDecimal;
+
 public class PrimitiveDataTypes {
 /*
 8 primitive data types in Java
 
 Number -> Integer, Floating-point, character
 
-Integer -> byte,short,int,long [the reason behind of having 4 different integer data types is to use them based on the required size of the data type. Because all the time we do not require an integer to be stored with larger size in the memory.
+Integer -> byte,short,int,long.The reason behind of having 4 different integer data types is to use them based on the required size of the data type. Because all the time we do not require an integer to be stored with larger size in the memory.
 
 Floating-point -> float & double
 
@@ -19,11 +21,22 @@ Character -> char
 # There are only 2 types of integer literals
 
 1. int literal
-2. long literal
+2. Long literal
 
 // For the above 2 literals, even if we provide underscore symbol in between the literals, still they get printed as a primitive value only.
 
+For Floating data types such as Float and Double, we will need to provide the trailing value F/f || d/D.
 
+For Double the precision is 15 digits, so whenever we provide a long value then the javac will truncate the value into 15 digits and rounds it up to last digit of the value
+
+double value = 4.33333333003339990999999999999; This value will be trimmed down to 15 digits and then rounded to 9 at the end.
+
+Char data type in java will hold only one single character value. And it should be defined inside a single quote.
+All the characters in java can also be represented in Uni code format.
+
+char data = '\u0042'; -> This variable value will represent character B in java.
+
+Checkout for Unicode character table on Google. [https://symbl.cc/en/unicode/table/#latin-1-supplement]
  */
 
  //Why do we need to assign the static keyword for the Instance variables to be used inside the Main method of the class?
@@ -36,11 +49,28 @@ Character -> char
 
     public static void main(String[] args) {
 
+        //For each and every data type, there will be a range of numbers associated we can call those MIN & MAX values from the data type class itself.
+        // Check in the Resources provided regarding internal data representation schemes in java.
+        // Java follows the IEEE 754 Standard to store floating-point numbers.
+        //https://arshadsuraj.medium.com/java-floating-point-numbers-rounding-problem-solution-a07e019b9dd5 [ check this article for floating data types rounding issue]
+        // most of the time the floating data types do not provide the exact value when an action or calculation is performed on them. To tackle that issue, we need to use BIG DECIMAL class.
+        // Use Float and Double data types when approximate values are required, if exact values are required either use integer data types or use Big Decimal class.
         int nav = Integer.MIN_VALUE;
         int kar = Integer.MAX_VALUE;
-        System.out.println(kar);
-        System.out.println(nav);
+        float king = 50.6F;
+        double karthik = Double.MAX_VALUE;
+        float value = 50.222222222222222222222222220000000000999999999888888f;
+        double test = 9.33333333333334444444444002222222222222444445555555555d;
+        System.out.println(test);
+        System.out.println(value);
 
+       /* for(double a=1.0; a!=0.4 ;a=a-0.1){
+            System.out.println(a);
+        }*/
+
+        BigDecimal first = new BigDecimal("1.20"); // Big decimal will provide the exact value which is expected when a calculation is performed. 
+        BigDecimal second = new BigDecimal("1.0");
+        System.out.println(first.add(second));
     }
 
 

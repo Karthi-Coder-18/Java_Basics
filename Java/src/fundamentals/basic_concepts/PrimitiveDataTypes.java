@@ -47,6 +47,37 @@ Checkout for Unicode character table on Google. [https://symbl.cc/en/unicode/tab
 
  // Binary format will rarely be used in programming for assigning values to variables.
 
+
+ /*
+ CHAR datatype in java
+
+ -> A char data type is used to store single character value in java
+ -> A char variable in java is internally represented using an unsigned integer scheme,
+ [ 0-65535 ] is the range of unsigned integer.
+ -> Char literal i.e., data of the char datatype can be initialized using unicode escape sequence, char data, int data 0-65535
+ -> When you assign an integer value to a char variable, Java performs an implicit narrowing conversion. This means that Java allows you to assign an integer value to a char variable, but it doesn't automatically convert the integer value into a character.
+    Instead, it simply truncates the higher bits of the integer and keeps the lower 16 bits as the character code.
+  */
+
+
+ /*
+
+ BOOLEAN primitive data type is a logical data type that only takes either True or False as literals
+
+ The Default value of boolean datatype is false.
+
+ If we are not initializing a boolean variable, then it gets false as a default value.
+
+ Boolean variables are mostly used in control flow statements.Control flow statements are something that which controls the logic flow based on the condition
+ provided to it.
+
+
+
+
+
+
+  */
+
     public static void main(String[] args) {
 
         //For each and every data type, there will be a range of numbers associated we can call those MIN & MAX values from the data type class itself.
@@ -59,6 +90,11 @@ Checkout for Unicode character table on Google. [https://symbl.cc/en/unicode/tab
         int kar = Integer.MAX_VALUE;
         float king = 50.6F;
         double karthik = Double.MAX_VALUE;
+        char single = ' '; // if there is any need of using only a single character in java, use the char datatype.
+        char unsigned = 22;
+        int literal = '1';
+        boolean condition = true; // when using the boolean variable in control flow statements do not use the equality operator
+        // if the condition is already used, just use the boolean variable.
         float value = 50.222222222222222222222222220000000000999999999888888f;
         double test = 9.33333333333334444444444002222222222222444445555555555d;
         System.out.println(test);

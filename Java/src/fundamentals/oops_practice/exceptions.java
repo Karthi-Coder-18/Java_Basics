@@ -1,6 +1,6 @@
 package oops_practice;
 
-import com.sun.source.doctree.ThrowsTree;
+//import com.sun.source.doctree.ThrowsTree;
 
 public class exceptions {
 

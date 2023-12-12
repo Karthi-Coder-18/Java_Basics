@@ -1,15 +1,16 @@
-package fundamentals.basic_concepts;
+package basic_concepts;
 
 public class TypeCasting {
 
+    protected int marks = 200;
 
     public static void main(String[] args) {
 
         double d = 22.04;
 
-        int i = (int) d;
+       int karthik = (int) d;
 
-        System.out.println(i);
+        System.out.println(karthik);
 
 
 

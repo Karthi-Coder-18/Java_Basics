@@ -1,4 +1,4 @@
-package fundamentals.basic_concepts;
+package basic_concepts;
 
 import java.math.BigDecimal;
 
@@ -25,6 +25,11 @@ public class PrimitiveDataTypes {
         double test = 9.33333333333334444444444002222222222222444445555555555d;
         System.out.println(test);
         System.out.println(value);
+        
+
+        TypeCasting t = new TypeCasting();
+
+        System.out.println(t.marks); // Here the marks Variable can be seen accessed by Default access modifier as the both classes reside inside the same package. 
 
        /* for(double a=1.0; a!=0.4 ;a=a-0.1){
             System.out.println(a);

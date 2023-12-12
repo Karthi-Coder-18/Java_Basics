@@ -3,20 +3,18 @@ package fundamentals.basic_concepts;
 public class TypeCasting {
 
 
+    public static void main(String[] args) {
+
+        double d = 22.04;
+
+        int i = (int) d;
+
+        System.out.println(i);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+    }
 
 }
 

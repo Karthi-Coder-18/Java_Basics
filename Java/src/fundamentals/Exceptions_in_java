@@ -9,9 +9,17 @@ CompileTimeError :
 RunTimeError :
 
 
+Exceptions: Where as exceptions inside an program can be recovered by placing a Try/Catch block and catching the exception whenever it occurs and showing the exception which is causing the issue to user.
 
 
 
+Checked Exceptions:
+
+UnChecked Exceptions:
+
+
+
+Error: Errors in a program can cause serious problems and cannot be recovered from.
 
 
 

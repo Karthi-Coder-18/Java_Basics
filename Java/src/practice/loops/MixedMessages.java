@@ -2,7 +2,7 @@ package practice.loops;
 
 public class MixedMessages {
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         int x = 0;
         int y = 0;
 
@@ -11,6 +11,8 @@ public class MixedMessages {
             System.out.print(x + " " + y + " ");
             x = x + 1;
         }
+
+
     }
 
 }

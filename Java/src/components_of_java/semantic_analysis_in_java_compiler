@@ -1,0 +1,37 @@
+Semantic errors & Functions article: https://medium.com/thefreshwrites/java-semantic-errors-why-java-programmer-must-acknowledge-semantic-errors-6f3e63b411e6
+
+Semantic analysis is the process of analyzing the meaning of a program. It is typically performed by a compiler after parsing, which is the process of breaking down the program into its syntactic components. Semantic analysis checks for things like:
+
+* **Type checking:** Making sure that the types of operands and operators are compatible.
+* **Scope checking:** Making sure that variables are declared before they are used, and that they are used within their scope.
+* **Control flow analysis:** Making sure that all control flow statements (e.g., if/else, loops) are reachable and have valid exit paths.
+* **Data flow analysis:** Making sure that variables are assigned values before they are used, and that those values are not overwritten unexpectedly.
+
+Semantic analysis is an important part of compilation because it helps to ensure that the program is correct and will run as expected.
+
+Here are some specific examples of the types of functions that semantic analysis performs on a Java program:
+
+* **Checks that all variables are declared before they are used.**
+* **Checks that all variables are used within their scope.**
+* **Checks that the types of operands and operators are compatible.**
+* **Checks that all control flow statements (e.g., if/else, loops) are reachable and have valid exit paths.**
+* **Checks that variables are assigned values before they are used.**
+* **Checks that variable values are not overwritten unexpectedly.**
+* **Checks for other potential errors, such as duplicate variable declarations and conflicting inheritance hierarchies.**
+
+Semantic analysis is typically performed using a visitor pattern. The visitor pattern is a design pattern that allows you to perform different operations on a data structure without modifying the data structure itself. In semantic analysis, the visitor pattern is used to traverse the abstract syntax tree (AST) of the program and perform the necessary checks.
+
+Here is a simple example of a Java program that contains a semantic error:
+
+```java
+public class Example {
+    public static void main(String[] args) {
+        int x;
+        System.out.println(x); // This line will cause a semantic error
+    }
+}
+```
+
+When the compiler performs semantic analysis on this program, it will detect the error because the variable `x` has not been assigned a value before it is used.
+
+Semantic analysis is an essential part of compilation, and it plays a vital role in ensuring that Java programs are correct and reliable.

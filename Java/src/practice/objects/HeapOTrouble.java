@@ -6,6 +6,8 @@ public class HeapOTrouble {
     public static void main(String[] args) {
 
         int x = 0; //Local variable
+        short k = 200;
+        byte j = 100;
 
         HeapOTrouble[] hq = new HeapOTrouble[5];
 
@@ -15,7 +17,7 @@ public class HeapOTrouble {
         hq[3] = new HeapOTrouble();
         hq[4] = new HeapOTrouble();
 
-        System.out.println(hq[0].sum(10,20));
+        System.out.println(hq[0].sum(k,j));
         System.out.println(hq[2].returnPlease());
     }
 
@@ -27,6 +29,8 @@ public class HeapOTrouble {
     int returnPlease(){
         return 100;
     }
+
+
 
 
 }

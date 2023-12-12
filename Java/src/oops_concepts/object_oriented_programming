@@ -1,0 +1,39 @@
+Q: What is Object oriented Programming?
+
+A: The OOP a programming pattern in computer science that relies on the concept of classes and objects.
+   It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes), which are used to create individual Objects / instances of the classes.
+
+ Q: How does one Object calls/invokes another object in java?
+
+ A:
+
+
+-> A class is considered as a blueprint which will have STATE(variables) & BEHAVIOUR(Methods) which contains the data of object created from the class.
+
+-> A New object will be created using CONSTRUCTOR (provide some code snippet)
+
+-> OOPS concepts
+
+1. Encapsulation
+2. Abstraction
+3. Polymorphism
+4. in-inheritance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

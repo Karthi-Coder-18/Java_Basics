@@ -1,0 +1,53 @@
+
+Define an Interpreter
+
+A: An interpreter does not generate machine code like a compiler, but it maintains a library of pre-compiled machine code and executes the appropriate machine code corresponding to the statement in the source code
+
+
+CPU's Fetch & Execution Cycle
+
+Program [ Hard disk ] will be loaded onto the memory -> The Instructions of the program are stored in the memory in binary format -> Those instructions are loaded onto the CPU & Executed.
+
+Once the program is executed on the Hardware the results will be sent to memory -> Memory stores the results -> Again fetches another program from Hard disk and loads onto the CPU.
+
+
+Interpreter's Fetch & Execution Cycle
+
+load the program onto memory -> Fetches the program instructions and understand those instructions from the memory -> Execute the precompiled code from it's own machine code library.
+
+-> Basically the interpreter will have it's OWN MACHINE code which represents the complete source code programming language. The values of the variables might change but the functionality of the programming language remains same.
+
+-> So the interpreter understands the Source code first and then takes the values provided in the statement into consideration and then executes directly onto the CPU.
+
+-> Interpreter is loaded directly onto the memory along with the source code.
+
+Ex:
+
+An interpreter doesn't convert programs to machine code at all, not even line by line or statement by statement.
+An interpreter keeps a representation of the source code (typically as a syntax tree and not raw text) and inspects this to figure out what to do and what should happen next.
+For example, when calculating the expression x+1, it does not convert the expression to an ADD instruction (which a compiler would), but recognises that this is an addition, so it first calculates the two operands.
+The first is x, so it fetches the contents of x from a symbol table and pushes this onto a stack. The second operand is 1, so this is also pushed onto the stack.
+Finally, the interpreter adds the two topmost stack elements. Details may vary, for example the interpreter may use another structure than a stack to hold intermediate values.
+
+There are hybrid methods where programs are initially interpreted, but when a procedure has been interpreted many times, it is compiled to machine code and future calls to the procedure executes the compiled code.
+
+
+
+
+Advantages:
+-> Platform independent language / software
+-> No compilation step
+
+Disadvantages:
+-> Costly memory access
+-> Source code has to be reinterpreted everytime it runs.
+-> Interpreter is loaded directly onto the memory along with the source code.
+
+
+
+
+
+
+
+
+

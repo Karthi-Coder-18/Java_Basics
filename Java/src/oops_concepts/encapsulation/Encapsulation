@@ -1,0 +1,129 @@
+ENCAPSULATION :
+
+
+
+
+
+
+GETTERS (ACCESSORS) : Getter method is supposed to return a value whenever it is being called.
+
+SETTERS (MUTATORS)  : Setter method is supposed to set the value which has been provided to it as an Argument and assign that value to the instance/reference variable of the class.
+
+
+
+## We can't let an object of a class directly access the instance variables & change it's values. That is the reason we are using Setter methods and forcing the objects to call that method to set the value.
+
+
+HIDING THE DATA IN ENCAPSULATION
+
+1. Mark all your Instance variables using PRIVATE access modifier.
+
+2. Mark all the Getters and Setters using PUBLIC access modifier.
+
+
+
+## The usage of these getter & setter methods is to provide the accessibility to change the value or get the value from the class where the variables are present without distributing the complete code.
+
+
+
+## When we declare an instance variables inside a class and don't initialize them & then try to call those variables using the class object then it will return the default value of the variable.
+
+1. Number Primitives ( including CHAR ) has a default value as 0
+
+2. For BOOLEAN it will be "FALSE"
+
+3. For OBJECTS it will be "NULL"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

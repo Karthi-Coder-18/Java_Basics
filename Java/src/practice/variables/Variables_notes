@@ -34,7 +34,7 @@ double[ 64bits ]
 2. We are not allowed to assign the bigger size variable type to smaller size type. it kind of not fits !!
 
 
-LOCAL VARIABLE : These are the variables which are declared inside an Method
+LOCAL VARIABLE : These are the variables which are declared inside an Method. When we declare a local variables inside a method then at any cost it needs to be initialized or compiler throws an error.
 
 INSTANCE VARIABLE : These are the variables which are defined inside an class, but outside an method and also used by an object of the class where it is defined.
 
@@ -42,7 +42,7 @@ STATIC VARIABLE : These variables are declared inside an class and can be used g
 
 REFERENCE VARIABLE : When an object is created to access an particular class we use an name for that object that is called as Reference variable.
 
-
+METHOD PARAMETERS : The method parameters can also be considered as LOCAL variables.
 
 
 

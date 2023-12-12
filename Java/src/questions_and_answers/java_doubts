@@ -1,0 +1,8 @@
+1. Can you please specify what are programming languages which are compiled to another programming languages?
+
+A: ClojureScript (https://clojurescript.org) is one such language (a slight variant of Clojure) and it comes with a compiler that compiles its programs into Java Script. It looks like there are not many tools that do such translations. Such compilers are also referred to as source-to-source compilers or trans compilers.
+
+
+2. Why a single file cannot have more than one public class?
+
+A:

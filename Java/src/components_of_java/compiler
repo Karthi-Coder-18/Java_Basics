@@ -1,0 +1,63 @@
+-> Any machine would understand set of instructions provided by the developer in form of a program.
+-> A program is a sequence of instructions where the instructions are stored in the sequence of 0's & 1's in binary format.
+-> These programs are written in a human readable format and then converted into the machine language also called as machine code or native code which is in BINARY FORMAT.
+-> Binary format consists of 0 & 1
+-> Developers came up with a concept of assembly language which is little bit more developer friendly language to develop the code. And using an ASSEMBLER they have converted the code written in
+   Assembly language to machine language.
+
+
+-> Yet the Assembly language was not feasible for the developers to write code. This is when they came up with HIGH LEVEL PROGRAMMING languages.
+-> Such as JAVA, C, C++..
+-> In these programming languages we will be using english words to write the code and make it more developer friendly.
+-> The code written in any programming language is referred as "SOURCE CODE"
+
+
+-> In order to execute these high level programs on a machine we need a assembler type of tool which can convert the code to machine readable format.
+-> COMPILER will take the High level programs and convert it into the TARGET PROGRAMMING LANGUAGE
+-> Java -> Compiler (javac) -> Target Language (bytecode)
+-> Here Target language need not to be machine code itself, it can be different w.r.t programming languages. [ It can be bytecode, machine code, any other programming language]
+
+
+-> There are few compilers which are referred as "Source-To-Source compilers or TransCompilers" which are using to compile one source code to another source code format.
+-> So first the Compilation of the program happens and then the compiled code will be directly executed on the machine to capture the end result.
+
+Below are the few of operations the compiler does
+
+1. verify the SYNTAX & SEMANTICS[checking if all the statements written in the program are meaningful or not is what semantics analysis is meant by] of the source code.
+-> As the program is written using statements the compiler does verify all the statements before compiling them to the target language.
+Ex of semantics:
+
+2. Code optimization
+
+3. Generating the machine code or a target language.
+
+
+
+
+-> There will be lot of source code files inside th project, these files are also called as object files. The compiler does link all these files into one executable file.
+
+
+PLATFORM DEPENDENCY
+
+-> Operating system does have a role to play in platform dependency for the high level programming languages.
+-> The file format of the executable program files comes into picture w.r.t the operating system of the machine.
+-> Windows uses PE(Portable & Executable) file format and Linux/Ubuntu uses ELF(Executable & Linking format)
+-> System calls like opening a file, reading data from a file, saving the data.. etc
+
+-> Hardware - programs which are compiled for the X86 hardware architecture won't work on the ARM architecture machines.
+
+
+JAVA IS A PLATFORM INDEPENDENT LANGUAGE [WOREV] Write Once Run Everywhere!!!
+
+
+
+
+
+
+
+
+
+
+
+
+

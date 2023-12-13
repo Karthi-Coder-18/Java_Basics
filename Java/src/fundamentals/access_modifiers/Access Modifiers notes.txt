@@ -6,7 +6,8 @@
 
 -> DEFAULT: When a Member or Method of a class needs to be accessed [Inside the class and inside the same package sub-class & Non-subclass] then by default those Members & methods are marked with DEFAULT access modifier. 
 
--> PROTECTED: When a Member or Method of a class in java needs to be accessed from [Same class, Same package subclass, non-subclass, different package sub-class] then the Member or Methods need to use PROTECTED as access modifier.
+-> PROTECTED: When a Member or Method of a class in java needs to be accessed from [Same class, Same package subclass, non-subclass, different package sub-class] then the Member or Methods need to use PROTECTED as access modifier. Outside the class from different packages only through IN-HERITENCE. 
+-? PROTECTED access modifier can only be applied to VARIABLES, METHODS and CONSTRUCTOR but not to classes. 
 
 
 -> All the access modifiers in java are dedicated to INSTANCE or STATIC variables which are declared inside a class & outside an method. These are not applicable to LOCAL VARIABLES.
@@ -25,6 +26,11 @@
 
 Access modifiers w.r.t classes
 
+1. A class cannot be PRIVATE or PROTECTED except nested class. 
+2. When the constructor of the class has been marked with PRIVATE access modifier then we cannot create object of that class, it throws a compile time error. 
+3. When no access modifier is specified for a class then it will be marked as DEFAULT. If a class is using DEFAULT access modifier then it can be accessed only from the other classes Within it's PACKAGE. Classes from other packages cannot access the class with default access modifier. 
+4. We cannot use PROTECTED access modifier to a class as it cannot be sub classed by classes from different packages [ Check with Any of our team Members on this question? ]
+5. And same with PRIVATE access modifier too? why? [ Only PUBLIC, DEFAULT, FINAL, STATIC]
 
 
 

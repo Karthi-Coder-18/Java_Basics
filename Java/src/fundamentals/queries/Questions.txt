@@ -45,7 +45,12 @@ public static void main(String[] args) {
 
 
 
+What are the main differences between ABSTRACT CLASSES & INTERFACES? 
 
+1. Methods inside the INTERFACES & ABSTRACT CLASSES can use which access modifiers? 
+2. Is it allowed to declare VARIABLES inside INTERFACES or ABSTRACT CLASSES? 
+3. What is the main difference between INTERFACES & ABSTRACT CLASSES? 
+4. What are the access modifiers used for INTERFACES & ABSTRACT CLASSES in java? [ without inclusion of public & default]
 
 
 

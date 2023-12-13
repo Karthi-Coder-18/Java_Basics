@@ -1,6 +1,8 @@
 package basic_concepts;
 
-public class TypeCasting {
+import access_modifiers.AccessModifers;
+
+public class TypeCasting extends AccessModifers {
 
     protected int marks = 200;
 
@@ -13,6 +15,10 @@ public class TypeCasting {
         System.out.println(karthik);
 
 
+
+        AccessModifers a = new AccessModifers();
+        
+        
 
 
     }

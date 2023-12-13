@@ -1,22 +1,27 @@
-package fundamentals.basic_concepts;
+package basic_concepts;
 
-public class TypeCasting {
+import access_modifiers.AccessModifers;
 
+public class TypeCasting extends AccessModifers {
 
+    protected int marks = 200;
 
+    public static void main(String[] args) {
 
+        double d = 22.04;
 
+       int karthik = (int) d;
 
-
-
-
-
-
-
-
-
+        System.out.println(karthik);
 
 
+
+        AccessModifers a = new AccessModifers();
+        
+        
+
+
+    }
 
 }
 

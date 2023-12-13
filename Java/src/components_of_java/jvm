@@ -1,4 +1,23 @@
-JVM -> JAVA VIRTUAL MACHINE
+ JVM -> JAVA VIRTUAL MACHINE
+
+# Java is Platform independent, which means the Java program which we write can run of any environment irrespective with Hardware or Operating system. All we need is an JVM to run a java application.
+
+# JVM is platform dependent?
+
+
+JAVA CODE JOURNEY
+
+Developer -> Java Code -> Compiler [ javac ] -> Converts java code to Byte code -> JVM will execute the java byte code & first file which will be executed by JVM will be the one
+
+which has [ public static void main[] method signature ]
+
+-> When java class is compiled then it will in return provide an file with an extension of .class i.e. BYTE CODE.
+
+
+
+#JDK contains JRE and JRE contains JVM
+
+
 
 JRE: Java Run Time Environment does contains the JVM and Java API libs which are required to run and execute the program.
 

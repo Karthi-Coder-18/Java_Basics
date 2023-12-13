@@ -19,6 +19,7 @@ public class HeapOTrouble {
 
         System.out.println(hq[0].sum(k,j));
         System.out.println(hq[2].returnPlease());
+        System.out.println(x);
     }
 
 

@@ -2,7 +2,7 @@ package oops_practice;
 
 import practice.Encapsulation;
 
-import javax.imageio.IIOException;
+//import javax.imageio.IIOException;
 import java.io.*;
 
 public class Serialization implements Serializable {

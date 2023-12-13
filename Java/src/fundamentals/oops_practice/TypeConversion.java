@@ -6,11 +6,11 @@ public class TypeConversion extends DataHiding{
 
         int sum = 200;
 
-        float d = sum;
+      //  float d = sum;
 
 
 
-        byte b = (byte) d;
+     //   byte b = (byte) d;
         String value = Integer.toString(sum); // Converting an integer into String value in java
 
         System.out.println(value);

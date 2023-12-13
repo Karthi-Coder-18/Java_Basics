@@ -1,8 +1,49 @@
-package fundamentals.basic_concepts;
+package basic_concepts;
 
 import java.math.BigDecimal;
 
 public class PrimitiveDataTypes {
+
+    public static void main(String[] args) {
+
+        //For each and every data type, there will be a range of numbers associated we can call those MIN & MAX values from the data type class itself.
+        // Check in the Resources provided regarding internal data representation schemes in java.
+        // Java follows the IEEE 754 Standard to store floating-point numbers.
+        //https://arshadsuraj.medium.com/java-floating-point-numbers-rounding-problem-solution-a07e019b9dd5 [ check this article for floating data types rounding issue]
+        // most of the time the floating data types do not provide the exact value when an action or calculation is performed on them. To tackle that issue, we need to use BIG DECIMAL class.
+        // Use Float and Double data types when approximate values are required, if exact values are required either use integer data types or use Big Decimal class.
+        int nav = Integer.MIN_VALUE;
+        int kar = Integer.MAX_VALUE;
+        float king = 50.6F;
+        double karthik = Double.MAX_VALUE;
+        char single = ' '; // if there is any need of using only a single character in java, use the char datatype.
+        char unsigned = 22;
+        int literal = '1';
+        boolean condition = true; // when using the boolean variable in control flow statements do not use the equality operator
+        // if the condition is already used, just use the boolean variable.
+        float value = 50.222222222222222222222222220000000000999999999888888f;
+        double test = 9.33333333333334444444444002222222222222444445555555555d;
+        System.out.println(test);
+        System.out.println(value);
+        
+
+        TypeCasting t = new TypeCasting();
+
+        System.out.println(t.marks); // Here the marks Variable can be seen accessed by Default access modifier as the both classes reside inside the same package. 
+
+       /* for(double a=1.0; a!=0.4 ;a=a-0.1){
+            System.out.println(a);
+        }*/
+
+        BigDecimal first = new BigDecimal("1.20"); // Big decimal will provide the exact value which is expected when a calculation is performed.
+        BigDecimal second = new BigDecimal("1.0");
+        System.out.println(first.add(second));
+    }
+
+}
+
+
+
 /*
 8 primitive data types in Java
 
@@ -39,13 +80,13 @@ char data = '\u0042'; -> This variable value will represent character B in java.
 Checkout for Unicode character table on Google. [https://symbl.cc/en/unicode/table/#latin-1-supplement]
  */
 
- //Why do we need to assign the static keyword for the Instance variables to be used inside the Main method of the class?
+//Why do we need to assign the static keyword for the Instance variables to be used inside the Main method of the class?
 
- // Hexadecimal format starts with 0X || 0x, and it starts and ends from 0to9 & AtoF
+// Hexadecimal format starts with 0X || 0x, and it starts and ends from 0to9 & AtoF
 
- // Check out what is SIGNED TWO COMPLEMENT SCHEME ??
+// Check out what is SIGNED TWO COMPLEMENT SCHEME ??
 
- // Binary format will rarely be used in programming for assigning values to variables.
+// Binary format will rarely be used in programming for assigning values to variables.
 
 
  /*
@@ -78,37 +119,3 @@ Checkout for Unicode character table on Google. [https://symbl.cc/en/unicode/tab
 
   */
 
-    public static void main(String[] args) {
-
-        //For each and every data type, there will be a range of numbers associated we can call those MIN & MAX values from the data type class itself.
-        // Check in the Resources provided regarding internal data representation schemes in java.
-        // Java follows the IEEE 754 Standard to store floating-point numbers.
-        //https://arshadsuraj.medium.com/java-floating-point-numbers-rounding-problem-solution-a07e019b9dd5 [ check this article for floating data types rounding issue]
-        // most of the time the floating data types do not provide the exact value when an action or calculation is performed on them. To tackle that issue, we need to use BIG DECIMAL class.
-        // Use Float and Double data types when approximate values are required, if exact values are required either use integer data types or use Big Decimal class.
-        int nav = Integer.MIN_VALUE;
-        int kar = Integer.MAX_VALUE;
-        float king = 50.6F;
-        double karthik = Double.MAX_VALUE;
-        char single = ' '; // if there is any need of using only a single character in java, use the char datatype.
-        char unsigned = 22;
-        int literal = '1';
-        boolean condition = true; // when using the boolean variable in control flow statements do not use the equality operator
-        // if the condition is already used, just use the boolean variable.
-        float value = 50.222222222222222222222222220000000000999999999888888f;
-        double test = 9.33333333333334444444444002222222222222444445555555555d;
-        System.out.println(test);
-        System.out.println(value);
-
-       /* for(double a=1.0; a!=0.4 ;a=a-0.1){
-            System.out.println(a);
-        }*/
-
-        BigDecimal first = new BigDecimal("1.20"); // Big decimal will provide the exact value which is expected when a calculation is performed. 
-        BigDecimal second = new BigDecimal("1.0");
-        System.out.println(first.add(second));
-    }
-
-
-
-}

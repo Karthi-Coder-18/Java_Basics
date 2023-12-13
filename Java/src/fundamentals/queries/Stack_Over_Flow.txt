@@ -1,0 +1,27 @@
+Member variables in INTERFACES: https://stackoverflow.com/questions/7311274/attributes-member-variables-in-interfaces 
+
+Protected Access modifier for members inside class main method: https://stackoverflow.com/questions/21645031/protected-variable-in-main-method 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

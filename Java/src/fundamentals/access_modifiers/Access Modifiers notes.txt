@@ -24,6 +24,15 @@
 -> Use PROTECTED access modifier only when the Members of a class needs to be accessed from different package subclass. 
 
 
+// Use PUBLIC access modifier for classes, use PRIVATE for Members, use PUBLIC for methods and PRIVATE for methods can only be used when there is a requirement of not allowing other classes to use those methods. 
+// Use PROTECTED when there is a usecase of classes using the class in different package for sub classing and accessing the Members & methods. 
+// Avoid using DEFAULT, using DEFAULT means we are not sure which access modifier to use.  
+
+
+
+
+
+
 Access modifiers w.r.t classes
 
 1. A class cannot be PRIVATE or PROTECTED except nested class. 

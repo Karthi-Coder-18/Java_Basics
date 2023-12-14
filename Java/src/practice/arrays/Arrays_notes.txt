@@ -1,0 +1,53 @@
+
+1. In Java Arrays Holds multiple variables of same data type.
+
+2. Array is itself an Object even if it holds array of primitives.
+
+We can define an array in java in two ways 
+
+ex: 
+
+1. int[] array = new int[7]; -> When we know how many variables needs to be stored inside an array, but we do not know the exact values, then we use this syntax. once declared the number of values provided cannot be changed, it is fixed.
+
+2. String[] names = {"karthik", "Naveen"}; -> When we know the values which needs to be stored then we provide them inside the array when it is declared. 
+
+
+-> We can loop through each element inside an array using FOR and ENCHANCED FOR LOOP. 
+-> When Looping an Array, the array through a single variable to the loop and then we can print the values. 
+
+# In arrays indexing always starts from 0.
+
+# When we declare an array of objects if we want to use the instance variables or method of that class which has been declared as array object use the respective index to achieve it.
+
+# what ever size we give that number of objects we are intended to create. And each and every index inside the array needs to be assigned to an object.
+
+# Use the LENGTH method from the Array class to get the size / elements of an array.
+
+
+2D or MUTLI DIMENSIONAL Arrays
+
+-> When there is a need of storing multiple ARRAYS inside a single big array then we use this concept called 2D ARRAYS. 
+
+-> From the below syntax we can see there are two [][] boxes. The First one [] says how many ARRAYS are there inside the big Array and the second [] says elements inside each array. 
+
+int[][] numbers = new int[2][4]; 
+
+-> When Looping through the 2D Array using Foreach loop then the Out loop should be an Array itself beacuse when we ask the Big single Array to provide the elements, it throws the complete ARRAY as a element and not seperate variables. 
+
+ex: 
+
+int[][] nums = new int[1][3];
+
+for(int[] i: nums){
+    for(int j: i){
+        System.out.print(j + "");
+    }
+}
+
+
+
+
+
+
+
+

@@ -22,6 +22,7 @@ UnChecked Exceptions:
 Error: Errors in a program can cause serious problems and cannot be recovered from.
 
 
+-> Exceptions in java majorly occurs during Runtime. They may or may not occur during the code compilation. 
 
 
 

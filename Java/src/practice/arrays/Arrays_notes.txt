@@ -1,4 +1,7 @@
 
+## Everytime we have a fixed size and we want to store multiple values then we can use ARRAYS. 
+
+
 1. In Java Arrays Holds multiple variables of same data type.
 
 2. Array is itself an Object even if it holds array of primitives.
@@ -7,10 +10,11 @@ We can define an array in java in two ways
 
 ex: 
 
-1. int[] array = new int[7]; -> When we know how many variables needs to be stored inside an array, but we do not know the exact values, then we use this syntax. once declared the number of values provided cannot be changed, it is fixed.
+1. int[] array = new int[7]; -> When we know how many variables needs to be stored inside an array, but we do not know the exact values which needs to be inserted inside the array, then we use this syntax. once declared the number of values provided cannot be changed, it is fixed.
 
 2. String[] names = {"karthik", "Naveen"}; -> When we know the values which needs to be stored then we provide them inside the array when it is declared. 
 
+// By default the default values for an Integer ARRAY will be 0. 
 
 -> We can loop through each element inside an array using FOR and ENCHANCED FOR LOOP. 
 -> When Looping an Array, the array through a single variable to the loop and then we can print the values. 
@@ -43,6 +47,33 @@ for(int[] i: nums){
         System.out.print(j + "");
     }
 }
+
+
+JAGGED ARRAYS 
+
+-> If we are not sure how many elements to be added for each array inside a multi dimensional array then use an JAGGED ARRAY to assign the values. 
+
+-> syntax for using JAGGED Array
+
+int[][] data = new int[2][]; we left the 2nd square bracket empty as we do not want to mention / use same number of elements for each array inside the big array. 
+
+data [0] = new data[3]; we are specifically changing the length/size of every array inside the 2D Array. 
+data [1] = new data[4];
+data [2] = new data[1];
+
+
+DRAW BACKS of an ARRAY
+
+
+-> Once we specify the number of elements inside the array during it's declaration then it is fixed. [it can be changed by creating new array of same size and copy all the elements???]
+
+-> What if we want to have different data types inside an same array ?
+
+
+
+
+
+
 
 
 

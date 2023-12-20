@@ -64,8 +64,15 @@ Q: What exactly is Object type is meant by?
 A: 
 
 
+Q: What is the difference between Mutable [object,string,array] and Non-Mutable concepts in Java? 
+A: 
 
 
+Q: Does the Collection interface does not have GET method? if not why? 
+A: 
+
+Q: What are the differences between HASHSET and TREESET? when to use them? 
+A: 
 
 
 

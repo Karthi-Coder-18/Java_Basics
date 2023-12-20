@@ -1,4 +1,7 @@
 
+## From the Collections TREE check all the different type of collections present and Practice how to use IN-BUILT methods.
+
+
 Collections API -> Does has the pre-built code which includes (classes & interface) which can be used to store, retrive the data using advanced features such as Stack, Queue etc....
 
 Collections -> Class
@@ -28,21 +31,51 @@ Collection interface includes [https://www.javatpoint.com/collections-in-java]
 
 
 
+ArrayList || List 
+
+-> List is one of the collection API concept which supports Index values i.e. we can create a list of data and play with the index values? 
+-> List can contain DUPLICATE values. 
+
+
+SET 
+
+-> If we want an collection with UNIQUE set of values use SET collection API concept. 
+-> The class that implements SET interface is HASHSET 
+-> SET does not contain Index value concept. 
+-> SET does not print the values in Sorted manner i.e. in a order (if integer values are added then from lower to higher, If String values are added then in Alphabetical order). 
+
+Collection
+List
+SortedSet
+HashSet
+TreeSet
+AbstractSet
+Collections.singleton(java.lang.Object)
+Collections.EMPTY_SET
 
 
 
+TREESET 
+
+-> TREESET has the ability to sort the values added inside SET in a order i.e. (if integer values are added then from lower to higher, If String values are added then in Alphabetical order)
+-> TREESET extends AbstractSet and implements Navigable Set which extends SortedSet, that is why TreeSet has the ability to sort the provided values in an order. 
+-> 
+
+
+MAP 
+
+-> MAP does not extends or implements any class or interface of collections framework in java, but it comes under the collection concept. [but how?]
+-> MAP uses [KEY,VALUE] conecpt to store the values. 
+-> When using MAP we can use the GENERICS for Key & values i.e <String,Integer>. [GENERICS is nothing but providing the appropriate data type as parameter to collection tree. We will be providing the class of the data type]
+-> KEY has to be UNIQUE all the time. 
 
 
 
+HASHMAP or HASHTABLE 
 
-
-
-
-
-
-
-
-
+-> HASHTABLE also does the same work what HASHMAP does. 
+-> But we can use HASHTABLE for synchronization i.e. when multi threading concept comes into picture then use HASHTABLE. 
+-> 
 
 
 

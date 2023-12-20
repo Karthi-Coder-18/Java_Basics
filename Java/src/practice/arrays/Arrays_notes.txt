@@ -55,11 +55,19 @@ JAGGED ARRAYS
 
 -> syntax for using JAGGED Array
 
-int[][] data = new int[2][]; we left the 2nd square bracket empty as we do not want to mention / use same number of elements for each array inside the big array. 
+int[][] data = new int[2][]; //we left the 2nd square bracket empty as we do not want to mention / use same number of elements for each array inside the big array. 
 
-data [0] = new data[3]; we are specifically changing the length/size of every array inside the 2D Array. 
+data [0] = new data[3]; //we are specifically changing the length/size of every array inside the 2D Array. 
 data [1] = new data[4];
 data [2] = new data[1];
+
+How to loop through JAGGED arrays in 2D array
+
+for(int i=0; i<data.length; i++){
+    for(int j=0; j<data[i].length; j++){
+        System.out.print(i[j]);
+    }
+}
 
 
 DRAW BACKS of an ARRAY

@@ -54,9 +54,14 @@ What are the main differences between ABSTRACT CLASSES & INTERFACES?
 
 
 
+Q: We can't change the elements number inside an array once it is declared, if we have to extend the elements count how can it be done without using a dynamic array ? 
+
+A: Can we create another array and copy all the elements onto it and then add new element values? [check how this can be accomplished]
 
 
 
+Q: What exactly is Object type is meant by? 
+A: 
 
 
 

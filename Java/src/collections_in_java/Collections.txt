@@ -1,0 +1,57 @@
+
+Collections API -> Does has the pre-built code which includes (classes & interface) which can be used to store, retrive the data using advanced features such as Stack, Queue etc....
+
+Collections -> Class
+
+Collection -> Interface [ belongs to java.util package ]
+
+
+-> It of no use if we create an implementation of a Collection interface inside a class. As it is any API it does different type of interfaces which extends the Collection Inteface. 
+
+Collection interface includes [https://www.javatpoint.com/collections-in-java]
+
+1) LIST -> Array & Linked List 
+2) QUEUE -> Dequeue 
+3) SET   -> Hash set, Linked hash set 
+
+
+
+-> Every interface which extends the Collection interface do have subclasses which has methods to store, retrive the data. 
+
+-> The data which will be added into the Collection interface is all objects as the data type has not be mentioned Explicitly. 
+
+-> Collection actually works with OBJECTS but not with the Primitive types. While storing or using any of the collection types to store the data mention the class inside <> angular brackets to make sure it is an object. 
+
+-> Using GENERICS while using collection in java would be helpful as we are clearly mentionting which type of class to be used for storing the data. 
+
+-> If we do not provide the GENERICS type for the collection which is created then it might throw Runtime exception based on the operation performed, if we use GENERICS then if there is any error in the code even before compiling the IDE will show an error. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -73,6 +73,12 @@ public class Arrays {
             System.out.println(batters[i].player + " : " + batters[i].runs);
          }
 
+         // ENHANCED FOR LOOP for array of objects. 
+         // Instead of using any of the data type use the CLASS name for requesting the values from the actual array being provided and store it inside the reference variable. 
+         for(Cricketer athelete : batters){
+            System.out.println(athelete.player);
+         }
+
 
 
 

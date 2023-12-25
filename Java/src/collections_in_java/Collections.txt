@@ -9,13 +9,14 @@ Collections -> Class
 Collection -> Interface [ belongs to java.util package ]
 
 
--> It of no use if we create an implementation of a Collection interface inside a class. As it is any API it does different type of interfaces which extends the Collection Inteface. 
+-> It of no use if we create an implementation of a Collection interface inside a class. As it is an API it does have different type of interfaces which extends the Collection Inteface. 
 
 Collection interface includes [https://www.javatpoint.com/collections-in-java]
 
-1) LIST -> Array & Linked List 
+1) LIST  -> Array & Linked List 
 2) QUEUE -> Dequeue 
 3) SET   -> Hash set, Linked hash set 
+4) MAP   -> HASHMAP [Not included in collection tree, but can be considered as part of it]
 
 
 
@@ -34,7 +35,9 @@ Collection interface includes [https://www.javatpoint.com/collections-in-java]
 ArrayList || List 
 
 -> List is one of the collection API concept which supports Index values i.e. we can create a list of data and play with the index values? 
--> List can contain DUPLICATE values. 
+-> List can contain DUPLICATE values i.e. similar values can be stored. 
+-> using ArrayList we can create dynamic array where add() method can be used to add new elements into the array. 
+-> In-built methods == add(), get(), 
 
 
 SET 
@@ -75,7 +78,7 @@ HASHMAP or HASHTABLE
 
 -> HASHTABLE also does the same work what HASHMAP does. 
 -> But we can use HASHTABLE for synchronization i.e. when multi threading concept comes into picture then use HASHTABLE. 
--> 
+-> Need to know when to use HASHMAP & HASHTABLE. 
 
 
 

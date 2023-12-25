@@ -1,13 +1,13 @@
 package collections_in_java;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
 
 public class CollectionsInJava {
     public static void main(String[] a) {
@@ -31,7 +31,11 @@ public class CollectionsInJava {
         System.out.println(num.get(2)); // LIST provides a GET method to use the index values of the data inside the ArrayList.
 
 
+        Collection<Integer> bear = new ArrayList<Integer>();
 
+        bear.add(200);
+
+       
 
 
 

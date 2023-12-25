@@ -10,69 +10,39 @@ public class TypeCasting extends AccessModifers {
 
         double d = 22.04;
 
-       int karthik = (int) d;
+        int karthik = (int) d;
+
+        int a = 200;
+
+        double ll = a; // implicit type casting where the larger datatype is assigned to smaller one.
 
         System.out.println(karthik);
 
-
-
-        AccessModifers a = new AccessModifers();
-        
-        
-
+       // AccessModifers a = new AccessModifers();
 
     }
 
 }
 
-
 /*
-
-Explicit Typecasting :
-
-int intValue = 65;
-char charValue = (char) intValue;
-
-The above example demonstrates explicit typecasting of an integer value to a character value.
-
-
-
-
-
-
-
-
-
-
-
-
+ * 
+ * Explicit Typecasting :
+ * 
+ * int intValue = 65;
+ * char charValue = (char) intValue;
+ * 
+ * The above example demonstrates explicit typecasting of an integer value to a
+ * character value.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

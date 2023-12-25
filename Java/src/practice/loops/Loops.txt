@@ -1,0 +1,67 @@
+Types of Loops in java 
+
+FOR LOOP 
+
+
+WHILE LOOP 
+
+
+Do-WHILE LOOP 
+
+
+
+
+
+-> When to use which loop? 
+
+FOR : Most of the times we use FOR loop if we know what are the values which we need to start & end with. As we provide index value, condition & increment || Decrement. 
+
+WHILE : While loop can be used to read data from a file (as we do not know how many charcters to read, we use this loop to collect the data from file and come out of the loop when it is done). Can also be used for Database etc...
+
+DO-WHILE : If we want to check something wheather it can be priniting some data or calculation whatever even before the loop starts then we use WHILE loop. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

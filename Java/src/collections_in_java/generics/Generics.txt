@@ -1,0 +1,27 @@
+GENERICS in Java 
+
+Notes: https://www.javatpoint.com/generics-in-java#Advantage%20of%20Java%20Generics 
+
+-> We use Generics in java to reduce the run time errors and to check the code at Compile time rather than at run time so that the errors can be resolved easily. 
+-> No need of TYPE Casting the object. Consider that an Arraylist is created & for every value being added we have to cast it to the specific data type object. Instead of doing that use Generics to provide the data type right at the Collection declaration <>.  
+-> Type saftey : Single type of objects can only be stored rather than storing different or other types. 
+-> Most of the times run time errors can be transformed into Compile time errors. 
+
+<T t> -> generic type in java : https://stackoverflow.com/questions/5207115/java-generics-t-vs-object 
+
+
+
+-> generics enables types such as Classes & interfaces to be "Parameters" while defining other classes & interfaces, methods. 
+-> we can reuse the same code with different inputs. <> 
+
+learn about 
+
+public void bat(T t) {} -> How T can be used and what is the main difference between using the actual class as parameter and T as parameter 
+
+
+-> main problem with type casting is that JVM must test casting at run-time which may cause runtime errors. 
+
+
+
+
+

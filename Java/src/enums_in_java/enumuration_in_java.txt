@@ -1,0 +1,55 @@
+ENUMS: If we have certain constants whose values will not change throught the lifecycle of the App then we can use ENUMS to assign the values.
+
+Enum information with examples: https://www.javatpoint.com/enum-in-java 
+
+-> By default the ENUM values are objects? 
+
+-> By default All the variables inside the ENUMS are public, static & final
+
+-> Enumerated data type  is used to define ENUMS in java. 
+
+-> Java Enum internally inherits the Enum class, so it cannot inherit any other class, but it can implement many interfaces. We can have fields, constructors, methods, and main methods in Java enum
+
+-> Java compiler internally adds the below 3 methods to enum at compile time. 
+
+1. values() -> Returns the array of ENUMS present inside the corresponding enum class. [need to use this method only of type array]
+
+2. valueOf() -> Returns the value of the corresponding enum which we ask for. 
+
+Ex: System.out.println("Value of WINTER is: "+Season.valueOf("WINTER"));   
+
+3. ordinal() -> Returns the corresponding index value of ENUM variable. 
+
+
+
+
+-> As all the values inside the ENUM class are by default objects we can create 
+
+1. A constructor 
+2. Setters & Getters 
+3. Private variables to assign values to ENUM values if required. 
+
+
+-> PRIVATE CONSTRUCTOR: The reason why we are creating the private constructor for the ENUM class is that the values are being written inside the ENUM class & all those values are OBJECTS by default. 
+
+-> 
+
+
+
+Questions: 
+
+1. If Enums are of enumerated data type then are we not going to assign any other data type values to them? how exactly are they different from actual constants? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

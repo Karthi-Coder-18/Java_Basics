@@ -75,4 +75,6 @@ Q: What are the differences between HASHSET and TREESET? when to use them?
 A: 
 
 
+Q: Can a class in java hold parameters? 
+A: 
 

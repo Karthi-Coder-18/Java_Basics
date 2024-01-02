@@ -4,7 +4,7 @@ public class ExceptionHandling  {
 
     public static void main(String[] args) {
 
-        int[] num = {100, 300, 200};
+       // int[] num = {100, 300, 200};
         int[] data = new int[3];
         data[0] = 1000;
 

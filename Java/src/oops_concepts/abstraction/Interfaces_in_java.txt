@@ -1,0 +1,10 @@
+There are 3 types of Interfaces in java 
+
+1. Normal Interface: An interface which has more than 2 Abstract methods then it can be considered as Normal interface. 
+
+2. Functional Interface: An interface which can only contain one Abstract method is called as Functional interface or SAM (Single Abstract method)
+
+3. Marker Interface: An interface which do not have any ABSTRACT METHODS expect the interface declaration is called as Marker Interface in java. 
+
+Note: marker interface is used for providing permission to certain objects in java which can perform Serilization & De-serilization in java. 
+

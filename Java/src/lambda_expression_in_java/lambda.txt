@@ -1,0 +1,15 @@
+-> Lambda expression works only with Functional Interface in java. 
+
+-> Functional Interface is also called as SAM [Single Abstract Method]
+
+-> An interface can be labelled as functional interface only if it has one METHOD inside the interface. 
+  
+-> In order to access the method and override it no need of create seperate class, instead use anonymous inner class or Lambda Expression ->  
+   
+-> In the above code when creating an object we use [ NEW Constructor method] & then method overriding. As we already know the code that needs to be written out there we avoid writing it as the compiler too knows it. 
+    
+-> Use Lambda expression here -> to avoid the extra code to be written. 
+    
+-> If there is only one line of code inside the method then we can remove the brackets as well.  
+
+// How to return values using Lambda expression in Java [https://www.javatpoint.com/how-to-return-value-from-lambda-expression-java]

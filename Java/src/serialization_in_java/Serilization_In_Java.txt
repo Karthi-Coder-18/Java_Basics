@@ -1,0 +1,7 @@
+Serilization: Consider you are playing a game, after sometime you have closed the game & when the game is opened again how do we see the values of certain fields which are same when the game is closed in between? 
+
+-> Serilization in java is used to store the values inside an object to an file and load it onto the harddisk 
+
+De-Serilization: When the user opens the game again to update the values from where he/she has left off we use De-serilization in java. 
+
+-> After serilization the values gets stored inside the harddisk and then to retirive those values and update them onto the game we use De-serilization in java. 

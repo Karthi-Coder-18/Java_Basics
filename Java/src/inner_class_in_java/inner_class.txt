@@ -1,0 +1,59 @@
+-> To get the variables or methods of a class we use Object of the class. But if we need to use the methods or variables of the Inner class which is inside an existing class then we need the obj
+of existing class as well. 
+
+-> It is because the inner class inside another class is not static so we need the object of the Outer class in order to call the methods of inner class. 
+
+
+-> Syntax: 
+
+Animal a = new Animal();
+
+Animal.Dog d = new a.Dog(); 
+
+
+-> We need to mention the outer class to call the inner class while creating an object and then use the outer class object to create the object of inner class. 
+
+
+
+Anonymous Inner Class -> https://www.javatpoint.com/anonymous-inner-class 
+
+
+
+-> Anonymous inner class can be used in java if there is any requirement of changing the behaviour of the method of different class only once.
+
+-> An anonymous inner class can be useful when making an instance of an object with certain "extras" such as overloading methods of a class or interface, without having to actually subclass a class. 
+
+-> This anonymous inner class will not have any name it is only created when we try to create an obj of the existing class and then use the flower brackets to provide the content inside the anonymous inner class. 
+
+-> It should be used if you have to override a method of class or interface. Java Anonymous inner class can be created in two ways: 
+
+Class (may be abstract or concrete).
+Interface
+
+Syntax: 
+
+abstract class Person{  
+  abstract void eat();  
+}  
+class TestAnonymousInner{  
+ public static void main(String args[]){  
+  Person p=new Person(){  
+  void eat(){System.out.println("nice fruits");}  
+  };  
+  p.eat();  
+ }  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

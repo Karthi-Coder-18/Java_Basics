@@ -1,0 +1,71 @@
+
+-> If there is a requirement of repeating a statement or block of code multiple times or to iterate the same based on a condition we use LOOPS in Java. below are different types of loops in java
+
+-> Any variable name can be used instead of [i] while writing loops but we mostly use [i] cause we are basically iterating through a set of statements based on  a condition.  
+Types of Loops in java 
+
+FOR LOOP 
+
+
+WHILE LOOP : Based on the condition provided in the while block it loops through the statements provided inside the block and stops when the condition goes false. 
+
+
+Do-WHILE LOOP 
+
+
+
+
+
+-> When to use which loop? 
+
+FOR : Most of the times we use FOR loop if we know what are the values which we need to start & end with. As we provide index value, condition & increment || Decrement. 
+
+WHILE : While loop can be used to read data from a file (as we do not know how many charcters to read, we use this loop to collect the data from file and come out of the loop when it is done). Can also be used for Database etc...
+
+DO-WHILE : If we want to check something wheather it can be priniting some data or calculation whatever even before the loop starts then we use WHILE loop. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

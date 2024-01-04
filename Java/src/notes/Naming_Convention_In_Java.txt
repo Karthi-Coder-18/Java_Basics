@@ -1,0 +1,21 @@
+In Java we do use Naming convention while writing the code in order to make the code more clean & understandable for the other developers when they go through it. 
+
+-> Java follows Camel casing syntax. 
+
+Camel Case: Camel case (sometimes stylized as camelCase or CamelCase, also known as camel caps or more formally as medial capitals) is the practice of writing phrases without spaces or punctuation and with capitalized words. The format indicates the first word starting with either case, then the following words having an initial uppercase letter. 
+
+CLASS: In Java a class starts with Capital letter. [ex: Cricket{}]
+
+Variables & Methods: In Java variables & methods starts with small letter but will continue with capital letters from 2nd word onwards. 
+
+Ex: data, website(), picEditor(). 
+
+CONSTANTS: In java constants should always be in capital letters. The complete word should be in capital letter
+
+Ex: STORED, LEAVE 
+
+
+Constructor: In java Constructor uses the class name so the method name starts with Capital letter. 
+
+Ex: Password() 
+

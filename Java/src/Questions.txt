@@ -1,0 +1,103 @@
+1. Check about the Implicit and Explicit casting in Java ?
+
+Implicit Casting : When we pass a value to a method as an argument then Java will promote the SMALLER DATA TYPES to LARGER DATA TYPES automatically.
+
+ex :
+void myMethod(int x) {
+    // Method code
+}
+
+public static void main(String[] args) {
+    byte myByte = 10;
+    short myShort = 20;
+
+    myMethod(myByte);  // Implicit promotion of myByte to int. Here Even if we pass an byte as an data type java is implicitly promoting the Byte to int data type.
+    myMethod(myShort); // Implicit promotion of myShort to int
+}
+
+
+
+Explicit Casting : When we want to cast an LARGER DATA TYPE to SMALLER DATA TYPE then it be do using "Type Casting" concept.
+
+Ex:
+
+public static void main(String[] args) {
+    double myDouble = 123.456;
+    int myInt = (int) myDouble; // Explicit casting to int (results in 123, fractional part is discarded).
+
+    //Syntax : data type | reference variable  = (data type which we want convert ) the actual variable whose datatype needs to be changed
+}
+
+
+
+
+2. Equals Operator in Java ?
+
+
+## The ( == ) operator is used in Java to compare TWO VARIABLES of any kind & the operator simply compares bits of those variables.
+
+## To check if two reference variables are same i.e. ( referring to same Object in the heap ) use the == operator. The == operator returns true if both the reference variables refer to same OBJECT.
+
+
+## Use the .equals method to compare if two different Objects are equal or not ? [ check an example ]
+
+
+
+
+
+What are the main differences between ABSTRACT CLASSES & INTERFACES? 
+
+1. Methods inside the INTERFACES & ABSTRACT CLASSES can use which access modifiers? 
+2. Is it allowed to declare VARIABLES inside INTERFACES or ABSTRACT CLASSES? 
+3. What is the main difference between INTERFACES & ABSTRACT CLASSES? 
+4. What are the access modifiers used for INTERFACES & ABSTRACT CLASSES in java? [ without inclusion of public & default]
+
+
+
+Q: We can't change the elements number inside an array once it is declared, if we have to extend the elements count how can it be done without using a dynamic array ? 
+
+A: Can we create another array and copy all the elements onto it and then add new element values? [check how this can be accomplished]
+
+
+
+Q: What exactly is Object type is meant by? 
+A: 
+
+
+Q: What is the difference between Mutable [object,string,array] and Non-Mutable concepts in Java? 
+A: 
+
+
+Q: Does the Collection interface does not have GET method? if not why? 
+A: 
+
+Q: What are the differences between HASHSET and TREESET? when to use them? 
+A: 
+
+
+Q: Can a class in java hold parameters? 
+A: 
+
+Q: Can a class in java have multiple constructors? 
+A: 
+
+
+Q: Is it must that we need to provide the values inside the constructors while creating objects? 
+A: 
+
+Q: When two classes names are similar to each other in two different files while accessing the class present in file 2 the object gets created for class inside file 1, how to avoid this? 
+A: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

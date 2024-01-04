@@ -1,0 +1,40 @@
+Conisder that we are playing a video game for example football game & in the game we can 11 players each from 2 different teams are running at a same time & they are also 
+dribbling the ball & crowd cheering, commentary going on parallely. How does all these things happens at same time without troubling each other? 
+
+The above concept can be achieved using THREADS where we can run an smallest unit in the software as a single process and execute it. 
+
+In Java we have a concept called Multi-Threading which can run different processes at same time and those processes can share the hardware resources between them. 
+
+
+
+-> When the main method starts executing it goes through the sequence of statements to execute one after another. If there is a need of executing two statements at same time then we can use THREADS. 
+
+-> Extend any class with THREAD class to make it eligible for running on it's own process. 
+
+-> Start() method in THREAD class will inform the class to start executing run() method. 
+
+-> Run() method in THREAD class will start executing the statements or methods etc.. 
+
+-> If you call the start() method on the Thread object, it will invoke the run() method of your MyRunnableTask class concurrently in a separate thread. 
+
+-> In THREADS we have a conecpt called SCHEDULER who's job is to identify different threads in software and schedule the threads execution one after another. 
+
+-> If there are 10 threads which are waiting to get executed then SCHEDULER will first exceute any of 2 threads and then goes on executing the rest. This execution is mostly based on number of Cores inside a laptop or device running threads. 
+
+-> Priority conecpt in Threads is used to suggest the SCHEDULER on which thread to be executed first. But we can't say SCHEDULER will execute the thread with max Priority, but it does consider the suggestion. 
+
+-> On a scale we have priority from [1-10]. 
+
+-> There are constants in THREAD class which is MIN_PRIORITY, NORMAL_PRIORITY, MAX_PRIORITY [0,5,10] which can be used to assign to different threads. 
+
+-> sleep() method in THREAD class is used to ask the threads to stop for a period of milliseconds and allow the different thread to execute in parallel in mean time. 
+As the sleep() method throws an checked exception i.e. intereputted exception surround the sleep method with Try/Catch block. 
+
+
+
+
+## THREADS IN JAVA CAN BE IMPLEMENTED USING THREAD CLASS OR RUNNABLE INTERFACE
+
+-> Using the Runnable interface is recommended over directly extending the Thread class because Java supports multiple inheritance of interfaces. This allows you to extend another class while still being able to execute code concurrently, improving code organisation and reusability.
+
+additonal advantages of using runnable interface in java which has only one method i.e. run() -> https://www.theknowledgeacademy.com/blog/runnable-interface-in-java/#:~:text=Using%20the%20Runnable%20interface%20is,improving%20code%20organisation%20and%20reusability

@@ -1,6 +1,7 @@
 1. SHIFT + CTRL + A -> Multi line comment. 
 2. // -> Single line comment. 
 3. CTRL + SHIFT + I -> Code formatting. 
+4. SHIFT + ALT + Arrow keys -> 
 
 
 

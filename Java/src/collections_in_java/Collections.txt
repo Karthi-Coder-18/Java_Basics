@@ -1,0 +1,93 @@
+
+## From the Collections TREE check all the different type of collections present and Practice how to use IN-BUILT methods.
+
+
+Collections API -> Does has the pre-built code which includes (classes & interface) which can be used to store, retrive the data using advanced features such as Stack, Queue etc....
+
+Collections -> Class
+
+Collection -> Interface [ belongs to java.util package ]
+
+
+-> It of no use if we create an implementation of a Collection interface inside a class. As it is an API it does have different type of interfaces which extends the Collection Inteface. 
+
+Collection interface includes [https://www.javatpoint.com/collections-in-java]
+
+1) LIST  -> Array & Linked List 
+2) QUEUE -> Dequeue 
+3) SET   -> Hash set, Linked hash set 
+4) MAP   -> HASHMAP [Not included in collection tree, but can be considered as part of it]
+
+
+
+-> Every interface which extends the Collection interface do have subclasses which has methods to store, retrive the data. 
+
+-> The data which will be added into the Collection interface is all objects as the data type has not be mentioned Explicitly. 
+
+-> Collection actually works with OBJECTS but not with the Primitive types. While storing or using any of the collection types to store the data mention the class inside <> angular brackets to make sure it is an object. 
+
+-> Using GENERICS while using collection in java would be helpful as we are clearly mentionting which type of class to be used for storing the data. 
+
+-> If we do not provide the GENERICS type for the collection which is created then it might throw Runtime exception based on the operation performed, if we use GENERICS then if there is any error in the code even before compiling the IDE will show an error. 
+
+
+
+ArrayList || List 
+
+-> List is one of the collection API concept which supports Index values i.e. we can create a list of data and play with the index values? 
+-> List can contain DUPLICATE values i.e. similar values can be stored. 
+-> using ArrayList we can create dynamic array where add() method can be used to add new elements into the array. 
+-> In-built methods == add(), get(), 
+
+
+SET 
+
+-> If we want an collection with UNIQUE set of values use SET collection API concept. 
+-> The class that implements SET interface is HASHSET 
+-> SET does not contain Index value concept. 
+-> SET does not print the values in Sorted manner i.e. in a order (if integer values are added then from lower to higher, If String values are added then in Alphabetical order). 
+
+Collection
+List
+SortedSet
+HashSet
+TreeSet
+AbstractSet
+Collections.singleton(java.lang.Object)
+Collections.EMPTY_SET
+
+
+
+TREESET 
+
+-> TREESET has the ability to sort the values added inside SET in a order i.e. (if integer values are added then from lower to higher, If String values are added then in Alphabetical order)
+-> TREESET extends AbstractSet and implements Navigable Set which extends SortedSet, that is why TreeSet has the ability to sort the provided values in an order. 
+-> 
+
+
+MAP 
+
+-> MAP does not extends or implements any class or interface of collections framework in java, but it comes under the collection concept. [but how?]
+-> MAP uses [KEY,VALUE] conecpt to store the values. 
+-> When using MAP we can use the GENERICS for Key & values i.e <String,Integer>. [GENERICS is nothing but providing the appropriate data type as parameter to collection tree. We will be providing the class of the data type]
+-> KEY has to be UNIQUE all the time. 
+
+
+
+HASHMAP or HASHTABLE 
+
+-> HASHTABLE also does the same work what HASHMAP does. 
+-> But we can use HASHTABLE for synchronization i.e. when multi threading concept comes into picture then use HASHTABLE. 
+-> Need to know when to use HASHMAP & HASHTABLE. 
+
+
+
+
+
+
+
+
+
+
+
+

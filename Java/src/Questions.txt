@@ -78,3 +78,26 @@ A:
 Q: Can a class in java hold parameters? 
 A: 
 
+Q: Can a class in java have multiple constructors? 
+A: 
+
+
+Q: Is it must that we need to provide the values inside the constructors while creating objects? 
+A: 
+
+Q: When two classes names are similar to each other in two different files while accessing the class present in file 2 the object gets created for class inside file 1, how to avoid this? 
+A: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

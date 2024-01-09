@@ -67,7 +67,7 @@ Create an Custom Exception by extending an Exception class & creating an constru
 
 
 
--> to Understand throws keyword in a better way -> https://www.javatpoint.com/throws-keyword-and-difference-between-throw-and-throws
+-> to Understand throws keyword in a better way -> https://www.programiz.com/java-programming/throw-throws
 
 
 

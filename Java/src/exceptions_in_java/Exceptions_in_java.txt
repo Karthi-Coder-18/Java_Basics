@@ -44,7 +44,7 @@ Erros in java
 
 try
 {
-
+   throw new ArthimeticException(""); 
 }
 catch(Exception e)
 {
@@ -54,16 +54,20 @@ catch(Exception e)
 // The catch block will only get executed if an exception occurs, else jvm will run the try block and executes the rest of the code. 
 
 
-
 Exception Hirearchy: Object ->  [Throwable] -> [Error, Exception] -> Excetpion [Checked, Un-checked] -> Error [multiple types of errors]
 
 
+-> While executing the Try - Catch block if there is an need of throwing an exception use "Throw" key word and then create a new object of respective exception. 
+
+
+Create an Custom Exception by extending an Exception class & creating an constructor for the class and providing an string variable as parameter if required. 
+
+
+-> THROWS keyword is used to let the method which is calling the critical statement that this method will throws an exception. 
 
 
 
-
-
-
+-> to Understand throws keyword in a better way -> https://www.javatpoint.com/throws-keyword-and-difference-between-throw-and-throws
 
 
 

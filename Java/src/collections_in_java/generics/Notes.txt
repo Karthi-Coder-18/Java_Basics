@@ -1,0 +1,12 @@
+// As we know that the OBJECT class is the parent class for all the classes in Java, if we do not use GENERICS and directly use the Object class then everytime we have to 
+// Typecast the specific datatype class in order to avoid the runtimeexception. Because of this JVM has to check the typecasting while running the app. 
+
+// In Java we use <T> to mention the specific GENERIC type while creating a class or object. 
+
+// When the <T> generic type is used then we can manage to avoid the below two issue 
+
+1. Convert the runtimeexceptions to compiletimeexceptions 
+2. Avoid Typecasting so that JVM need not to check which type of data is being provided. 
+
+// Under the hood <T> Java will be not using generic type and specifies the OBJECT class as all the Generic type extends OBJECT class. 
+

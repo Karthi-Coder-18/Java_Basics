@@ -1,0 +1,4 @@
+Anagram for two strings -> To check if the provided strings are having same length and then reshuffling the charcters of the string 1 it becomes string 2 & viceversa. 
+
+code: https://www.programiz.com/java-programming/examples/check-if-two-strings-are-anagram 
+

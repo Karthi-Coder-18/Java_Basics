@@ -1,0 +1,41 @@
+
+public <F> void raceWorld(F f){}
+
+-> While creating an Generic method no matter if we are returning any value or not we need to provide the Diamond operator <> with an Generic type. 
+
+-> Use the same letter in Parameters as well. The letter should be of Capitals. 
+
+public <T,K> Integer scores(T t, K k){}
+
+-> If we are using two parameters then the generic type letter must be used for them too, it should not be changed even if there is any return type. 
+
+-> The Daimond operator should always be part of Method signature. 
+
+public class Cricket <T>; 
+
+Cricket <Integer> c = new Cricket<>(); // providing the generic typr value inside diamond operator while creating an object. 
+
+-> Same applies for Class signature too 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

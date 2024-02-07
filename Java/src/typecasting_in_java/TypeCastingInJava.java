@@ -14,7 +14,10 @@ public class TypeCastingInJava {
         System.out.println(k);
 
         //Narrowing Typecasting -> Converting a larger data type into smaller data type. Also known as Explicit conversion or casting up. 
-
+        //byte <- short <- char <- int <- long <- float <- double 
+        
+        
+        
         float f = 333202; 
         int i = (int) f;
         System.out.println(i);

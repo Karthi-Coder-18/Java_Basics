@@ -13,9 +13,9 @@ Exceptions: Where as exceptions inside an program can be recovered by placing a 
 
 
 
-Checked Exceptions:
+Checked Exceptions: Compile time errors, if there is any syntax error or any error which the compiler catches even before executing the code it is called as Checked exceptions as compiler checks the errors.
 
-UnChecked Exceptions:
+UnChecked Exceptions: Runtime errors, the compiler maynot be able to catch the errors which can cause the app or website to crash, these are called as Un-checked exceptions. 
 
 
 
@@ -25,22 +25,49 @@ Error: Errors in a program can cause serious problems and cannot be recovered fr
 -> Exceptions in java majorly occurs during Runtime. They may or may not occur during the code compilation. 
 
 
+Erros in java 
+
+1. CompileTimeError
+2. RunTimeError
+3. Logical Error 
+
+-> If there is any syntax error in the code then while compiling the code the javac will throw an compile time error. 
+
+-> If there are any files, classes or data which has been missing after compiling the code then jvm throw an run time error also known as Exceptions. 
+
+-> If we know that a statement inside a method or a class does causes the code to no execute further then it is called as Critical statement. 
+
+-> Alaways Use try/Catch block to handle the exceptions / critical statements in java. 
 
 
 
 
+try
+{
+   throw new ArthimeticException(""); 
+}
+catch(Exception e)
+{
+
+}
+
+// The catch block will only get executed if an exception occurs, else jvm will run the try block and executes the rest of the code. 
+
+
+Exception Hirearchy: Object ->  [Throwable] -> [Error, Exception] -> Excetpion [Checked, Un-checked] -> Error [multiple types of errors]
+
+
+-> While executing the Try - Catch block if there is an need of throwing an exception use "Throw" key word and then create a new object of respective exception. 
+
+
+Create an Custom Exception by extending an Exception class & creating an constructor for the class and providing an string variable as parameter if required. 
+
+
+-> THROWS keyword is used to let the method which is calling the critical statement that this method will throws an exception. 
 
 
 
-
-
-
-
-
-
-
-
-
+-> to Understand throws keyword in a better way -> https://www.programiz.com/java-programming/throw-throws
 
 
 

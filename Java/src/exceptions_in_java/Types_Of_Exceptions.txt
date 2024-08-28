@@ -1,0 +1,46 @@
+Checked Exceptions  / Compile time exceptions : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UnChecked Exceptions / Run time exceptions : 
+
+-> IlliegalArugmentException
+-> ArrayIndexOutOfBoundsException
+-> NoActivtyFoundException 
+-> ClassNotFoundException
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

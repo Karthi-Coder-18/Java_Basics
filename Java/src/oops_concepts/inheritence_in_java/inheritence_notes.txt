@@ -1,0 +1,92 @@
+Q: When Class C extends Class B and consider that class A has method called batter(), class B extends class A and overrides the method batter(). 
+Now that we create an object of class C which extends Class B and call the method batter() which method gets called from which class ? 
+
+
+A: 
+
+When you call a method on an object refer-ence, you’re calling the most specific version of the method for that object type. In other words, the lowest one wins!
+“Lowest” meaning lowest on the inheritance tree. Canine is lower than Animal, and Wolf is lower than Canine, so invoking a method on a reference to a Wolf object means the
+JVM starts looking first in the Wolf class. If the JVM doesn’t find a version of the method in the Wolf class, it starts walking back up the
+inheritance hierarchy until it finds a match.
+
+
+
+
+-> Question aksed for multi level hirerachy [ which method gets called if c extends A and B classes]
+
+
+Inhertiecne conceptual questions 
+
+IS-A - relationship between the classes which extends each other. 
+
+HAS-A - relationship between the instance variables and classes. 
+
+Class HAS-A variable 
+
+Triangle IS-A Shape.
+
+
+
+Q: What if a Super class [Parent class] wants to inherit from Subclass[Child class] ? 
+
+A: It will never happen , there is no such mechanism of backward inheritence. Remember that this great line says "Think about it, children inherit from parents, not the other way around " 
+
+
+Q: Why do we use the Super keyword inside an overridden method ? 
+
+A:  
+
+In your subclass overriding method, you can call the superclass version using the keyword super. It’s like saying, “first go run the superclass version, then come back and finish with my own code...” 
+
+-> If we want to call the super class version of method when overridden inside a child class then use the super.method keyword and then write the extra code which we want to add inside the overridden method. 
+
+
+
+## A super class will decide which of it's members [Variables and Methods] can be accessed when other classes inherits them. It can be done using the Access Modifiers [ Public, Private, Protected and Default ] 
+
+
+
+When to use Inheritence 
+
+1. Use it when one class is more specific type of another. Like an circle is specific to shape , cat is specific to be an animal. 
+
+2. Do use when you have behavior (implemented code) that should be shared among multiple classes of the same general type. Example: Square, Circle, and Triangle all need to rotate and play sound, so putting
+that functionality in a superclass Shape might make sense and makes for easier maintenance and extensibility.
+
+
+
+-> Explain allocating memory inside HEAP and Garbage collcetor. 
+
+
+
+
+
+
+
+-> With Polymorphism we can have a superclass as a Object reference for the Child class 
+
+ex: Class Animal Class Dog 
+
+Animal a = new Dog(); -> Here we are referring the dog child class to the type animal class as dog IS-A Animal. 
+
+-> The reason why a class or a variable will be labelled as FINAL is that there is no way someone can change the Methods data inside a class that is being labelled as FINAL. It applies the same for variables, as their data will remain constant all the time. 
+
+
+Appliance appliance = new Toaster();
+
+With an Appliance reference to a Toaster, the compiler cares only if class Appliance has the method you’re invoking on an Appliance reference. But at runtime, the JVM does not look at the reference type (Appliance) but at the an actual Toaster object on the heap.
+
+Compiler will check for the method in reference type so that is why we call it method overriding and the 
+
+
+At Compile time Javac checks for the method written in PARENT Class and then when it is approved, at the runtime the overridden method inside the CHILD class gets called. 
+
+
+-> OVERLOADING A METHOD 
+
+While over loading a method consider the below things 
+
+-> Can change the arguments list 
+->The return types can differ fom parent class method, but it has to change the Arguments or else just changing the Return type does not work as the jvm will think we are overriding the method. 
+-> We are allowed to change the access modifier of the overloaded method as differs from the parent class method. 
+
